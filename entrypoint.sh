@@ -44,6 +44,12 @@ cd "${GITHUB_WORKSPACE}"
 echo ">>> Install NPM dependencies ..."
 npm install
 
+echo "当前目录"
+pwd
+echo "有文件："
+ls -R
+npm install hexo-theme-keep
+
 echo ">>> Clean folder ..."
 npx hexo clean
 
@@ -53,8 +59,6 @@ npx hexo generate
 cd $TARGET_PUBLISH_DIR
 
 echo ">>> Config git ..."
-
-pwd
 
 # Configures Git.
 git init
