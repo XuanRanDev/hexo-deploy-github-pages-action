@@ -46,9 +46,7 @@ npm install
 
 echo "当前目录"
 pwd
-echo "有文件："
-ls -R
-npm install hexo-theme-keep
+git clone https://github.com/XPoet/hexo-theme-keep themes/keep
 
 echo ">>> Clean folder ..."
 npx hexo clean
