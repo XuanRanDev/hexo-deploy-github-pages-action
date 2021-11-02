@@ -54,6 +54,8 @@ cd $TARGET_PUBLISH_DIR
 
 echo ">>> Config git ..."
 
+pwd
+
 # Configures Git.
 git init
 git config user.name "${GITHUB_ACTOR}"
