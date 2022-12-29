@@ -50,7 +50,7 @@ npx hexo clean
 echo ">>> Generate file ..."
 npx hexo generate
 
-cd $TARGET_PUBLISH_DIR
+cd public
 
 echo ">>> Config git ..."
 
